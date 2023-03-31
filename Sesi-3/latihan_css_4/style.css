@@ -1,0 +1,19 @@
+.link{
+    font-size: 20pt;
+}
+
+.link:hover{
+    color: aqua;
+}
+
+.link:link{
+    color:blue
+}
+
+.link:active{
+    color: firebrick;
+}
+
+.link:visited{
+    background: salmon;
+}

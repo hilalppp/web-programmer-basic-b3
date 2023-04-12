@@ -1,0 +1,27 @@
+Soal : ------------
+Buatlah sebuah algoritma yang menghitung luas dan keliling lingkaran, jika diberikan panjang jari-jari lingkaran.
+1.tulis judul algoritma
+2.tulis input input yang diperlukan untuk menghitung luas dan keliling lingkaran
+3.tulis langkah kalkulasi
+4.tulis instruksi untuk tampilkan hasil kalkulasi
+
+Jawaban : ---------
+1. Mengitung Luas dan Keliling Lingkaran 
+
+2.  + Pertama, identifikasi dahulu apa yang ingin dicari
+    + Input-kan nilai yang sudah diketahui seperti : 
+        - phi           = 22/7 atau 3,14
+        - jari-jari (r) = ???
+        jikai nilai phi yang diinput bukan 22/7 atau 3,14 maka akan menampilkan "nilai tidak diketahui"
+    + Mulai lakukan perintah hitung 
+
+3.  CHOOSE apa yang dicari
+    INPUT nilai yang diketahui
+    INPUT r   = ???
+    INPUT phi = ???    
+    
+    IF (phi) not 22/7 or 3,14 
+    
+    DISPLAY (nilai tidak diketahui)
+   ELSE ()
+    Then start Counting

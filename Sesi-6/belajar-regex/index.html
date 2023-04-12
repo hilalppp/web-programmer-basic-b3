@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belaja RegEXP</title>
+</head>
+<body>
+  <h1>Helo RegeX</h1>  
+
+<script>
+    var foo = /ab+c/
+    console.log(foo)
+    console.log(typeof foo)
+
+    var bar = new RegExp("ab+c")
+    console.log(bar)
+    console.log(typeof bar)
+
+    var foo = "belajar javascript"
+    var pola = /JavaScript/
+
+    console.log("type : " + pola.test(foo))
+    console.log("type : " + /Belajar/.test(foo))
+    console.log("type : " + /belajar/.test(foo))
+
+    var foo = "1 jam sama dengan 60 menit, juga sama dengan 3600 detik";
+    var pola = /\d+/9
+    console.log(pola.exec(foo))
+    console.log(pola.exec(foo))
+    console.log(pola.exec(foo))
+    console.log(pola.exec(foo))
+
+    var foo = "Belajar javascript"
+
+    console.log(/JavaScript/.test(foo))
+    console.log(/JavaScript/.test(foo))
+    console.log(/Bleajar/.test(foo))
+    console.log(/belajat/.test(foo))
+    console.log(/JavaScript/.test(foo))
+</script>
+</body>
+</html>

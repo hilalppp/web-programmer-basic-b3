@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan</title>
+  </head>
+  <body>
+    <label>Pesan :</label><input id="pesan" /><br />
+    <label>Sebanyak</label><input id="total" /><br />
+    <button onclick="print()">Cetak!</button>
+    <ol id="hasil"></ol>
+
+    <script>
+      // const nama_variabel= document.getElementById("nama_variabel")
+
+      function print() {
+        let pesan = document.getElementById("pesan").value;
+        let jumlah = parseInt(document.getElementById("total").value);
+        let output = document.getElementById("hasil")
+
+        for (let i = 0; i < jumlah; i++) {
+          output.innerHTML = output.innerHTML + `<li>${pesan}</li>`;
+        }
+      }
+    </script>
+  </body>
+</html>
